@@ -22,6 +22,7 @@ Prev (sub)node | `[`
 Next node (on the same level) | `n`
 Prev node (on the same level) | `p`
 Parent node | `u`
+Last node | `l`
 Choose the menu item | `m`
 Choose the cross reference | `f`
 Cancel the command | `Ctrl-g`
