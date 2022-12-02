@@ -7,23 +7,23 @@ says that the ‘Next’ node after this one is the node called ‘Help-P’. Be
 
 ## Basic commands
 
-Description | Command
---- | ---
-Move forward: scroll down or go to the next node | `SPC`
+Description | Command | Doom Emacs cmd
+--- | --- | ---
+Move forward: scroll down or go to the next node | `SPC` | 
 Move backward: scroll up or go to the prev node | `Del` or `Backspace`
 Scroll down the current node | `PageDown`
 Scroll up the current node | `PageUp`
-Go to the beginning of the node | `b`, `Home`
-Go to the end of the node | `End`
+Go to the beginning of the node | `b`, `Home` | `g` `g`
+Go to the end of the node | `End` | `G`
 Redraw the screen | `Ctrl-l`
 **List commands** | `H` or `?`
 Next (sub)node | `]`
 Prev (sub)node | `[`
-Next node (on the same level) | `n`
-Prev node (on the same level) | `p`
-Parent node | `u`
+Next node (on the same level) | `n` | `g` `j`
+Prev node (on the same level) | `p` | `g` `k`
+Parent node | `u` | `u`
 Last node | `l`
-Choose the menu item | `m`
+Choose the menu item | `m` | `g` `m`
 Choose the cross reference | `f`
 Cancel the command | `Ctrl-g`
 Move between menu items or cross references | `Tab`, `Shift-Tab` or `Alt-Tab`
