@@ -14,7 +14,7 @@ Move backward: scroll up or go to the prev node | `Del` or `Backspace`
 Scroll down the current node | `PageDown`
 Scroll up the current node | `PageUp`
 Go to the beginning of the node | `b`, `Home` | `g` `g`
-Go to the end of the node | `End` | `G`
+Go to the end of the node | `e`, `End` | `G`
 Redraw the screen | `Ctrl-l`
 **List commands** | `H` or `?`
 Next (sub)node | `]`
