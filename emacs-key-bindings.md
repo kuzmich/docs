@@ -7,7 +7,7 @@
 Quit Emacs: `C-x  C-c`  
 Quit a command: `C-g`  
 Undo: `C-/` (or `C-_`, or `C-x u`)  
-Universal argument: `C-u digits key` or `M-digits key`  
+Numeric argument (repeat count): `C-u digits key` or `M-digits key`  
 Example: `C-u 10 C-n` (move cursor 10 lines down), `C-u 10 C-v` (scroll 10 lines down)
 
 ## Cursor (point) movements
@@ -35,20 +35,20 @@ Move current line to the center, top, bottom of the screen | `C-l` (repeat 1-3 t
 Scroll 10 lines down | `C-u 10 C-v`
 Scroll 10 lines up | `C-u 10 M-v`
 
-## Вставка и удаление
-Описание | Команда
+## Inserting and deleting
+Description | Key
 ----- | ------
-Удалить пред. символ | `Bksp`
-Удалить след. символ | `C-d`
-Удалить пред. слово | `M-Bksp`
-Удалить след. слово | `M-d`
-Удалить строку | `C-a`, `C-k`
-Удалить несколько строк | `C-a`, `C-u <число> C-k`
-Удалить от курсора до конца строки | `C-k`
-Удалить от курсора до конца предложения | `M-k`
-Пометить | `C-Space`
-Вырезать | `C-w`
-Скопировать | `M-w`
+Delete prev. char. | `Bksp`
+Delete next char. | `C-d`
+Kill prev. word | `M-Bksp`
+Kill the next word | `M-d`
+Kill a line | `C-a`, `C-k`
+Kill several lines | `C-a`, `C-u <число> C-k`
+Kill from the cursor position to end of line | `C-k`
+Kill to the end of the current sentence | `M-k`
+Set a mark | `C-Space`
+Kill (cut) the region (selected text) | `C-w`
+Copy region | `M-w`
 Вставить удаленный текст | `C-y` (yanking)
 Вставить другой текст | `M-y` (также с `C-u <число>`, число может быть отрицательным)
 
